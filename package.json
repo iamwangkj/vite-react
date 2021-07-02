@@ -17,6 +17,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-standard": "^4.0.1",
+    "sass": "^1.35.1",
     "vite": "^1.0.0-rc.1",
     "vite-plugin-react": "^3.0.0"
   }

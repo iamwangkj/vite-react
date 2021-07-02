@@ -1,0 +1,11 @@
+.css-filter {
+  .box {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    background-color: #ff00cc;
+  }
+  .blur {
+    filter: blur(1px)
+  }
+}
