@@ -7,7 +7,7 @@ function App () {
 
   return (
     <div className="app">
-      <button onClick={() => setCount(count => count + 1)}>count is: {count}</button>
+      {/* <button onClick={() => setCount(count => count + 1)}>count is: {count}</button> */}
       <CssFilter />
     </div>
   )
