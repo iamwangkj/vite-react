@@ -6,9 +6,7 @@ function Com () {
 
   return (
     <div className="">
-      {list.map((item, index) => {
-        return <div key={index}>{item}</div>
-      })}
+
     </div>
   )
 }

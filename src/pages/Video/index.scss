@@ -1,0 +1,12 @@
+.video-box {
+  width: 300px;
+  height: 200px;
+  background-color: #ff00dd;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  overflow: hidden;
+  video {
+    width: 100%;
+  }
+}

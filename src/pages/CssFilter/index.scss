@@ -14,39 +14,39 @@ $mainColor: #336699;
     margin-bottom: 10px;
   }
   .blur {
-    filter: blur(1px)
+    filter: blur(1px);
   }
   .backdrop-filter {
-    backdrop-filter: blur(1px)
+    backdrop-filter: blur(2px);
   }
   .brightness {
-    filter: brightness(2)
+    filter: brightness(2);
   }
   .contrast {
-    filter: contrast(2)
+    filter: contrast(2);
   }
   .drop-shadow {
-    filter: drop-shadow(30px 10px 10px $mainColor)
+    filter: drop-shadow(30px 10px 10px $mainColor);
   }
   .grayscale {
-    filter: grayscale(1)
+    filter: grayscale(1);
   }
   .hue-rotate {
-    filter: hue-rotate(90deg)
+    filter: hue-rotate(90deg);
   }
   .invert {
-    filter: invert(0.3)
+    filter: invert(0.3);
   }
   .opacity {
-    filter: opacity(0.5)
+    filter: opacity(0.5);
   }
   .saturate {
-    filter: saturate(0.3)
+    filter: saturate(0.3);
   }
   .sepia {
-    filter: sepia(1)
+    filter: sepia(1);
   }
   .url {
-    filter: url(0.3)
+    filter: url(0.3);
   }
 }
