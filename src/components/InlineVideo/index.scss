@@ -1,0 +1,55 @@
+.mp4-video {
+  position: relative;
+
+  .mp4-video__target {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mp4-video__cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    opacity: 1;
+    visibility: visible;
+
+    .timestamp {
+      padding: 0 27px;
+      width: fit-content;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 22px;
+      background-color: rgba($color: #fff, $alpha: .8);
+      font-size: 28px;
+
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      z-index: 1;
+    }
+
+    &.hide {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &.absolute {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .mp4-video__expose {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
