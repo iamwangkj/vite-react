@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './App.scss'
-import Hook from './components/Hook/Index1'
-import Css from './components/Css'
-import Flex1 from './components/Flex1'
-import XSS from './components/XSS'
-import Worker from './components/Worker'
+import styles from './index.module.scss'
 
 function App () {
   function checkWebGL2 () {
@@ -20,10 +15,11 @@ function App () {
     }
   }
 
-  checkWebGL2()
+  // checkWebGL2()
 
   return (
-    <div className="App">
+    <div className={styles.app}>
+      <h1>I am App</h1>
       {/* <InlineVideo
         src="https://jvod.300hu.com/vod/product/18d130b0-f101-44ae-9957-482270830a91/40b28dcdaa4e41b0b9b000b10a5ad351.mp4"
         autoPlay
@@ -34,7 +30,9 @@ function App () {
       {/* <Css></Css> */}
       {/* <Flex1></Flex1> */}
       {/* <XSS /> */}
-      <Worker />
+      {/* <Worker /> */}
+      {/* <Adjust></Adjust> */}
+      {/* <Threesixty></Threesixty> */}
     </div>
   )
 }

@@ -1,0 +1,35 @@
+.page-menu {
+  display: flex;
+  justify-content: space-around;
+  // align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+  &:hover {
+    .box-in {
+      height: 25px;
+      z-index: 1;
+    }
+  }
+}
+
+.box-menu {
+  width: 250px;
+  height: 75px;
+  background-color: #fff;
+  position: relative;
+}
+
+.box-in {
+  width: 50px;
+  height: 0px;
+  overflow: hidden;
+  background-color: #ff00cc;
+  // position: relative;
+  // top: 50px;
+  transition: height 1s ease-in-out;
+}
