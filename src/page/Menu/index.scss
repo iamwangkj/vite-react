@@ -1,35 +1,52 @@
 .page-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   // align-items: flex-start;
   flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
 }
 
 .box {
+
+  width: 200px;
   margin-bottom: 10px;
   margin-right: 10px;
   
   &:hover {
     .box-in {
-      height: 25px;
-      z-index: 1;
+      // height: 25px;
     }
   }
 }
 
 .box-menu {
-  width: 250px;
+  // width: 250px;
   height: 75px;
   background-color: #fff;
   position: relative;
 }
+.box-child-wrapper {
+  width: 95vw;
+  // background-color: #00ddaa;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+  
+}
 
 .box-in {
-  width: 50px;
+  float: left;
+  width: 150px;
   height: 0px;
+  // height: 25px;
+  margin-right: 10px;
   overflow: hidden;
   background-color: #ff00cc;
   // position: relative;
   // top: 50px;
   transition: height 1s ease-in-out;
+  z-index: 1;
 }
