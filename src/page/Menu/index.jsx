@@ -30,7 +30,7 @@ function index () {
     <div className='page-menu'>
       {menuList.map(item => {
         return (
-          <div key={item} className="box" onClick={handleClick}>
+          <div key={item} className="box1" onClick={handleClick}>
             <div className="box-menu">{item.name}</div>
             <div className='box-child-wrapper'>
             {

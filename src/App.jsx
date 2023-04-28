@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
 import { routers } from './router'
 
 function App () {
+  console.log('I am app3===')
   return (
-    <div>
+    <ParallaxProvider>
       <h1>I am App</h1>
       {/* {routers.map((item) => <Link >)} */}
       {
@@ -17,7 +19,7 @@ function App () {
           )
         })
       }
-    </div>
+    </ParallaxProvider>
   )
 }
 

@@ -3,6 +3,7 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
 import App from './App'
 import Hook from './components/Hook/Index1'
 import Css from './components/Css'
@@ -13,6 +14,7 @@ import Adjust from './components/Adjust'
 import Threesixty from './page/Threesixty'
 import Menu from './page/Menu'
 import Test from './page/Test'
+import Css_perspective from './page/Css-perspective'
 
 export const routers = [
   {
@@ -30,10 +32,16 @@ export const routers = [
   {
     path: 'test',
     element: (<Test />)
+  },
+  {
+    path: 'css_perspective',
+    element: (<Css_perspective />)
   }
 ]
 
 export function routerProvider () {
   const browserRouter = createBrowserRouter(routers)
-  return <RouterProvider router={browserRouter} />
+  return <ParallaxProvider>
+    <RouterProvider router={browserRouter} />
+    </ParallaxProvider>
 }

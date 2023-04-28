@@ -17,6 +17,6 @@
 /* 移动端 */
 @media screen and (max-width: 1023px) {
   :root {
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
   }
 }

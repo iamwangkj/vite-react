@@ -1,0 +1,28 @@
+.page-test {
+  background-color: black;
+  color: #fff;
+
+  .box {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+  }
+
+  .box1 {
+    // perspective: 1px;
+    background: url('https://cdn.shopify.com/s/files/1/0560/3599/9767/files/bg-cooking-science.jpg?v=1680521628') center/cover no-repeat;
+    // background-attachment: fixed;
+  }
+
+  .box2 {
+    // perspective: 201px;
+    background: url('https://cdn.shopify.com/s/files/1/0560/3599/9767/files/cooking-science-in-kitchen.jpg?v=1680586575') center/cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .box3 {
+    // perspective: 201px;
+    background: url('https://cdn.shopify.com/s/files/1/0560/3599/9767/files/cooking-science-instaprobe-engineering.jpg?v=1680586576') center/cover no-repeat;
+  }
+
+}

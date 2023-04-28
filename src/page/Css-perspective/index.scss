@@ -1,0 +1,29 @@
+.page-perspective {
+  transform-style: preserve-3d;
+  perspective: 1px;
+
+  .box {
+
+    width: 500px;
+    height: 800px;
+    background-color: navajowhite;
+    margin-bottom: 150px;
+  }
+
+  .box1 {
+    background-color: red;
+    // transform: skew(45deg) translateZ(100px);
+    // transform: skew(45deg);
+    transform: translateZ(0px);
+  }
+
+  .box2 {
+    background-color: blue;
+    transform: translateZ(-1px) scale(2);
+  }
+
+  .box3 {
+    background-color: yellow;
+    transform: translateZ(-2px);
+  }
+}
